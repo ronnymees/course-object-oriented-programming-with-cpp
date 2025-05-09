@@ -1,4 +1,5 @@
 ---
+title: 08 - Functions
 description: needs to be done
 ---
 

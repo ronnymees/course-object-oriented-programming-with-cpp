@@ -1,4 +1,5 @@
 ---
+title: 41 - Pointers
 description: Pointers allow direct memory access, a much used feature in C and C++.
 ---
 

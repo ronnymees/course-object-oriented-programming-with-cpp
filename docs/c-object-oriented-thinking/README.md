@@ -1,3 +1,7 @@
+---
+title: 21 - Object Oriented Thinking
+---
+
 # Object Oriented Thinking (OOT)
 
 This will be a short-course on object oriented thinking, introducing all sorts of concepts involving object oriented programming. This course should cover the whole OOP or even better OOT concept from basic things like objects, classes and composition to inheritance and interfaces.

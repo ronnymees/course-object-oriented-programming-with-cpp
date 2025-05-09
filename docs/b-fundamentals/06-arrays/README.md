@@ -1,4 +1,5 @@
 ---
+title: 06 - Arrays
 description: needs to be done
 ---
 

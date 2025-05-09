@@ -1,4 +1,5 @@
 ---
+title: 27 - Composition
 description: Composition allows an object to be composed of other objects
 ---
 

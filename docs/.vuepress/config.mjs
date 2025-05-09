@@ -18,6 +18,13 @@ export default {
         ],
         sidebar: [
             {
+                text: 'Introduction',
+                children: [
+                  '/a-introductory/01-about-this-course/',  
+                  '/a-introductory/02-what-is-cpp/',              
+                ]
+            },
+            {
                 text: 'Developer tools',
                 children: [
                   '/developer-tools/01-visual-code/',  
@@ -25,16 +32,16 @@ export default {
                 ]
             },
             {
-                text: 'Introduction',
+                text: 'Compiling and Linking',
                 children: [
-                  '/a-introductory/01-about-this-course/',  
-                  '/a-introductory/02-what-is-cpp/',
-                  '/a-introductory/03-hello-world/',
+                    '/e-compiling-and-linking/01-the-compilation-process/',
+                    '/e-compiling-and-linking/02-makefiles/',
                 ]
             },
             {
                 text: 'Fundamentals',
                 children: [
+                    '/a-introductory/03-hello-world/',
                     '/b-fundamentals/01-variables-and-datatypes/',
                     '/b-fundamentals/02-operators/',
                     '/b-fundamentals/03-input-output/',
@@ -60,35 +67,18 @@ export default {
                     '/d-object-oriented-programming/02-creating-classes/',
                     '/d-object-oriented-programming/03-constructors/',
                     '/d-object-oriented-programming/04-composition/',
+                    '/g-inheritance/01-basic-inheritance/',
+                    '/g-inheritance/02-polymorphism/',
+                    '/g-inheritance/03-abstract-methods-classes-interfaces/',
                 ]
-            },
+            },            
             {
-                text: 'Compiling and Linking',
-                children: [
-                    '/e-compiling-and-linking/01-the-compilation-process/',
-                    '/e-compiling-and-linking/02-makefiles/',
-                ]
-            },
-            {
-                text: 'More Advanced C++',
+                text: 'Advanced Topics',
                 children: [
                     '/f-more-advanced-cpp/01-pointers/',
                     '/f-more-advanced-cpp/02-dynamic-memory-allocation/',
                     '/f-more-advanced-cpp/03-exceptions/',
                     '/f-more-advanced-cpp/04-file-streams/',
-                ]
-            },
-            {
-                text: 'Inheritance',
-                children: [
-                    '/g-inheritance/01-basic-inheritance/',
-                    '/g-inheritance/02-polymorphism/',
-                    '/g-inheritance/03-abstract-methods-classes-interfaces/',
-                ]
-            },           
-            {
-                text: 'Mental Topics',
-                children: [
                     '/h-mental-topics/01-operator-overloading/',
                 ]
             },               

@@ -1,4 +1,5 @@
 ---
+title: 42 - Dynamic memory allocation
 description: Dynamic memory allocation allows our application to request memory on the fly.
 ---
 

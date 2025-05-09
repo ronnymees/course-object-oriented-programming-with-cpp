@@ -1,4 +1,5 @@
 ---
+title: 25 - Creating classes
 description: needs to be done
 ---
 

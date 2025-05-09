@@ -1,4 +1,5 @@
 ---
+title: 28 - Basic inheritance
 description: needs to be done
 ---
 

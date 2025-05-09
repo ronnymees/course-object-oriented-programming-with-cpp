@@ -1,4 +1,5 @@
 ---
+title: 02 - Variables and data types
 description: Variables allow access to data stored in computer memory
 ---
 

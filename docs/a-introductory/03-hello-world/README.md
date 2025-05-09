@@ -1,4 +1,5 @@
 ---
+title: 01 - Hello World
 description: Introduction into basic syntax of C++ and compiler setup
 ---
 

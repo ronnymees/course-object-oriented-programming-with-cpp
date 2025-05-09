@@ -1,4 +1,5 @@
 ---
+title: 44 - File streams
 description: Reading and writing data from and too files is a common practice in any application.
 ---
 

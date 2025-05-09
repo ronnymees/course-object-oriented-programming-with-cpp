@@ -1,4 +1,5 @@
 ---
+title: 07 - Enums
 description: needs to be done
 ---
 
