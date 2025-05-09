@@ -4,6 +4,11 @@ description: needs to be done
 
 # Exceptions
 
+> 🌐 Supporting learning material
+>
+> Learn C++: [Exceptions, classes and inheritance](https://www.learncpp.com/cpp-tutorial/exceptions-classes-and-inheritance/)<br>
+> Learn C++: [Rethrowing exceptions](https://www.learncpp.com/cpp-tutorial/rethrowing-exceptions/)
+
 Exceptions are used to indicate exceptional situations that may fail the application.
 
 ## Return codes
@@ -256,5 +261,3 @@ int main() {
 }
 ```
 
-* [https://www.learncpp.com/cpp-tutorial/145-exceptions-classes-and-inheritance/](https://www.learncpp.com/cpp-tutorial/145-exceptions-classes-and-inheritance/)
-* [https://www.learncpp.com/cpp-tutorial/14-6-rethrowing-exceptions/](https://www.learncpp.com/cpp-tutorial/14-6-rethrowing-exceptions/)

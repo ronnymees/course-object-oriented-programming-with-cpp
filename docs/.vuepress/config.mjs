@@ -6,12 +6,13 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default {
     lang: 'en-US',
-    title: 'C++',
+    title: 'Programming in C++',
     description: 'C++ Programming Course for VIVES University of Applied Sciences (Bachelor Degree)',
     
     theme: defaultTheme({
         colorMode: 'light',
         colorModeSwitch: false,
+        logo: '/images/cpp_logo.png',
         navbar: [
     
         ],
@@ -96,13 +97,7 @@ export default {
                 children: [
                     '/y-standard-library/std-vector/'
                 ]
-            },              
-            {
-                text: 'References',
-                children: [
-                    ['https://www.stroustrup.com/bs_faq2.html', 'Bjarne Stroustrups C++ Style and Technique FAQ']
-                ]
-            },               
+            },                                    
         ],
         sidebarDepth: 0,    
         smoothScroll: true
@@ -110,12 +105,20 @@ export default {
       serviceWorker: true,
       plugins: [
         containerPlugin({
-          type: 'codeoutput',
-          locales: {
-            '/': {
-              defaultInfo: 'Output',
+            type: 'codeoutput',
+            locales: {
+              '/': {
+                defaultInfo: 'Output',
+              },
             },
-          },
+        }),
+        containerPlugin({
+            type: 'insight',
+            locales: {
+              '/': {
+                defaultInfo: 'Key Insight',
+              },
+            },
         }),
         registerComponentsPlugin({
           componentsDir: path.resolve(__dirname, './components'),

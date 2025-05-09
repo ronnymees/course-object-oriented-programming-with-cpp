@@ -31,7 +31,7 @@ In C++, output to the display console is done via `cout` and the stream insertio
 cout << "Hello World" << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Hello World
 </pre>
@@ -47,7 +47,7 @@ cout << "Hello World" << endl
   << "I am " << 34 << " years of age at this moment" << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Hello World
 My name is Jef Desmet
@@ -66,7 +66,7 @@ cout << "I am " << myAge << " years of age at this moment" << endl;
 cout << "BTW. I am about " << height << "m tall." << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Hello, my name is Jef Desmet
 I am 34 years of age at this moment
@@ -91,7 +91,7 @@ cout << "\tC++ makes it harder,\n"
 cout << "\t\t\t\t- by Bjarne Stroustrup" << endl;
 ```
 
-:::output
+::: codeoutput
 <pre>
 There   is      a       tab     between each    word
 
@@ -133,7 +133,7 @@ cout << "Great. I am also "
   << userAge << " years of age." << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Please enter your age: 19
 Great. I am also 19 years of age.
@@ -177,7 +177,7 @@ cout << "This is normal output" << endl;
 cerr << "This is an error" << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 This is normal output
 This is an error
@@ -217,7 +217,7 @@ cout << "Octal: " << oct << value << endl;
 cout << "Decimal: " << dec << value << endl << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Hexadecimal: f
 Octal: 17
@@ -251,7 +251,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Please enter a HEX value: 0xAB
 The value in DEC format: 171
@@ -293,7 +293,7 @@ int main() {
 
 The expected output is:
 
-::: output
+::: codeoutput
 <pre>
 Number in hex format: 0x0017
 </pre>

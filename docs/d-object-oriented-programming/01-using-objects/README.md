@@ -47,7 +47,7 @@ cout << "Length of \"" << hello
   << "\" is " << hello.length() << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Length of "Hello from C++" is 14
 </pre>
@@ -89,7 +89,7 @@ if (positionCool != std::string::npos) {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Could not find "cool"
 </pre>

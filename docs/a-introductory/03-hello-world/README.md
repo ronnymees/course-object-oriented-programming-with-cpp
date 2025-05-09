@@ -26,7 +26,7 @@ Visual Studio Code is a source code editor developed by Microsoft for Windows, L
 
 As a compiler you can make use of **MinGW** which stands for "Minimalist GNU for Windows", which is a native Windows port of the GNU Compiler Collection (GCC).
 
-::: danger Key insight - GNU
+::: insight Key insight - GNU
 GNU is an operating system and an extensive collection of computer software. **GNU is composed wholly of free software**, most of which is licensed under GNU's own GPL (General Purpose License). GNU is a recursive acronym for "GNU's Not Unix!", chosen because GNU's design is Unix-like, but differs from Unix by being free software and containing no Unix code. The GNU project includes an operating system kernel, GNU HURD, which was the original focus of the Free Software Foundation (FSF). However, non-GNU kernels, most famously Linux, can also be used with GNU software; and since the kernel is the least mature part of GNU, this is how it is usually used. The combination of GNU software and the Linux kernel is commonly known as GNU/Linux.
 :::
 
@@ -49,7 +49,7 @@ int main() {
 }
 ```
 
-::: danger Key insight - How code is executed
+::: insight Key insight - How code is executed
 Code is processed/executed the same way it is written, from top to bottom.
 :::
 

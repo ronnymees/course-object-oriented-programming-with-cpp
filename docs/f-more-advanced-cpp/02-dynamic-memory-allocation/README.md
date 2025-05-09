@@ -132,7 +132,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 ...
 Current iteration: 261794
@@ -577,7 +577,7 @@ int main()
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Welcome to LED Bar Demo ...
 How many leds would you like to add to the ledbar? 5
@@ -601,7 +601,7 @@ First compile the program with `g++` (or `make`), then start valgrind and point 
 
 Try it out yourself: make use of, for example, the above `RgbLedBar` project.
 
-::: output
+::: codeoutput
 <pre>
 ==15053== Memcheck, a memory error detector
 ==15053== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.

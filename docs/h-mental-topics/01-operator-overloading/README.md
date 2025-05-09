@@ -4,6 +4,10 @@ description: needs to be done
 
 # Operator overloading
 
+> 🌐 Supporting learning material
+>
+> Tutorialspoint: [Input/Output Operators Overloading in C++](https://www.tutorialspoint.com/cplusplus/input_output_operators_overloading.htm)
+
 Why operator overloading?
 * To use traditional operators with user-defined objects instead of using a function call on an object and passing another object to it.
 E.g.
@@ -200,12 +204,13 @@ int main()
     counter.print();
 }
 ```
-Output:
-```
+::: codeoutput
+<pre>
 counter.x after instantiation: 0
 counter.x after call to setX friend function: 8
-```
-<br>
+</pre>
+:::
+
 In fact, try to avoid using friend functions as much as possible because this is not using OOP properly.
 
 But in some situations like operator overloading here below, they can be particularly useful to solve the problems in option 1 and 2:
@@ -250,4 +255,3 @@ int main()
     * The first operand is the predefined object cout/cin (of type ostream)
     * The second operand is the string "some text".
 
-You can also further overload these operators with custom objects. For more details, have a look at [https://www.tutorialspoint.com/cplusplus/input_output_operators_overloading.htm](https://www.tutorialspoint.com/cplusplus/input_output_operators_overloading.htm)

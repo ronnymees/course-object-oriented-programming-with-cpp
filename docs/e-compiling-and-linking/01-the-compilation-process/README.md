@@ -86,7 +86,7 @@ g++ main.cpp -o hello
 
 Running the `hello` binary results in:
 
-::: output
+::: codeoutput
 <pre>
 Hello world from C++
 </pre>

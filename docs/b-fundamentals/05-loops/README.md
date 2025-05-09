@@ -4,8 +4,6 @@ description: needs to be done
 
 # Loops
 
-<!-- TODO: Add some info on continue and break; -->
-
 In general, statements are executed sequentially: The first statement in a block is executed first, followed by the second, and so on. These statements are also only executed once by default. There may however be situations where you need to execute a block of code several number of times.
 
 Programming languages provide various structures that allow you to loop a block of statements. The C++ programming language provides the following types of loops to handle looping requirements:
@@ -54,7 +52,7 @@ do {
 } while (number < 1 || number > 10);
 ```
 
-::: output
+::: codeoutput
 <pre>
 Please enter a number between 1 and 10: 0
 Please enter a number between 1 and 10: 33
@@ -92,7 +90,7 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 i = 0
 i = 1
@@ -117,7 +115,7 @@ for (; i < 10; i++) {
 cout << "After the for-loop i = " << i << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 i = 0
 i = 1
@@ -185,7 +183,7 @@ for (unsigned int i = 0; i < 10; i++) {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 i = 0
 i = 1
@@ -223,7 +221,7 @@ for (unsigned int i = 0; i < 10; i++) {
 cout << "Total sum: " << sum << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 i = 0
 i = 2
@@ -234,8 +232,3 @@ Total sum: 20
 </pre>
 :::
 
-<!--## Exercises
-
-Try to solve the exercises yourself. Don't go copy pasting other people's solutions.-->
-
-<!-- ### ❌ TITLE_GOES_HERE -->

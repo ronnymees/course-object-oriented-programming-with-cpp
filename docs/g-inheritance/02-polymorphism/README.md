@@ -22,7 +22,7 @@ cout << spg.getString() << endl;
 
 In this case the output would be:
 
-::: output
+::: codeoutput
 <pre>
 WarMachine: A small rescue jeep used in world war 2 in good shape. Price = 510'000 euro
 Tank: A Tiger 1 tank prototype in bad shape. Price 299'250 euro
@@ -79,7 +79,7 @@ for (unsigned int i = 0; i < machines.size(); i++) {
 
 Which would output:
 
-::: output
+::: codeoutput
 <pre>
 WarMachine: A small rescue jeep used in world war 2 in good shape. Price = 510'000 euro
 WarMachine: A Tiger 1 tank prototype in bad shape. Price 299'250 euro
@@ -109,7 +109,7 @@ class Tank : public WarMachine {
 
 If the same main code is executed again the output will be:
 
-::: output
+::: codeoutput
 <pre>
 WarMachine: A small rescue jeep used in world war 2 in good shape. Price = 510'000 euro
 Tank: A Tiger 1 tank prototype in bad shape. Price 299'250 euro
@@ -119,7 +119,8 @@ SPG: An ISU-152 SPG in non-working condition. Needs revision. Price = 2'000'000 
 
 ### Another look at polymorphism
 
-Source: [http://stackoverflow.com/questions/2391679/why-do-we-need-virtual-functions-in-c#comment32597274_2392656](http://stackoverflow.com/questions/2391679/why-do-we-need-virtual-functions-in-c#comment32597274_2392656)
+<!--
+Source: [http://stackoverflow.com/questions/2391679/why-do-we-need-virtual-functions-in-c#comment32597274_2392656](http://stackoverflow.com/questions/2391679/why-do-we-need-virtual-functions-in-c#comment32597274_2392656)-->
 
 Let's say you have these two classes:
 
@@ -247,7 +248,7 @@ int main() {
 
 However the only thing the output shows is:
 
-::: output
+::: codeoutput
 <pre>
 Destroying an Animal
 </pre>
@@ -276,7 +277,7 @@ int main() {
 
 Rendering the output
 
-::: output
+::: codeoutput
 <pre>
 Destroying a Cat
 Destroying an Animal

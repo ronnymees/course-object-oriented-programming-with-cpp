@@ -25,7 +25,7 @@ if (temperature >= 85) {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Please enter a temperature: 123
 Warning, temperature is too high!
@@ -51,7 +51,7 @@ if (temperature >= 85) {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Please enter a temperature: 12
 All is good
@@ -79,7 +79,7 @@ if (temperature < 85) {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Please enter a temperature: 105
 Time to run!
@@ -119,7 +119,7 @@ if (dayOfTheWeek == 1) {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 What day of the week is it today [1-7]? 2
 Then it's Tuesday today
@@ -180,7 +180,7 @@ switch(dayOfTheWeek) {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 What day of the week is it today [1-7]? 2
 Then it's Tuesday today
@@ -236,7 +236,7 @@ switch(action) {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 test.cpp: In function ‘int main()’:
 test.cpp:25:8: error: jump to case label
@@ -284,7 +284,7 @@ switch(action) {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Please enter two numbers: 2 5
 What would you like to do with the numbers?
@@ -294,13 +294,4 @@ Choice: 1
 a + b = 7
 </pre>
 :::
-
-<!--
-## Exercises
-
-Try to solve the exercises yourself. Don't go copy pasting other people's solutions.
-
-Mark the exercises using a ✅ once they are finished.
--->
-<!-- ### ❌ TITLE_GOES_HERE -->
 

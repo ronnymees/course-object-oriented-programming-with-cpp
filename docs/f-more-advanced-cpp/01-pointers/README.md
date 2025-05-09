@@ -28,7 +28,7 @@ int main() {
 
 which would output something similar to:
 
-::: output
+::: codeoutput
 <pre>
 x = 15 and has an address of 0x6afefc
 y = 0 and has an address of 0x6afef8
@@ -103,7 +103,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 x = 22 or via pointer = 22
 </pre>
@@ -170,7 +170,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Address of first element:       0x7ffeb1f0b51c
 First element via dereference:  123
@@ -263,7 +263,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 numbers[0] @ 0x7fffe60b064c = 123
 numbers[1] @ 0x7fffe60b0650 = 21
@@ -307,7 +307,7 @@ int main() {
 
 which would result in a similar output:
 
-::: output
+::: codeoutput
 <pre>
 Address of numbers: 0x61fef0
 Or via pointer: 0x61fef0
@@ -379,7 +379,7 @@ int main() {
 
 While the parameters are still passed by value, this time the addresses to the actual memory are copied. However via that same address one has access to the original data.
 
-::: output
+::: codeoutput
 <pre>
 Before call to swap:
 a: 10
@@ -431,7 +431,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 sizeof(values) in main: 12 bytes
 sizeof(int) in main: 4 bytes
@@ -482,7 +482,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 | 123 | 21 | 33 | 
 | 33 | 21 | 123 |
@@ -551,7 +551,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 Our student is named Mark Dekker
 :::
 

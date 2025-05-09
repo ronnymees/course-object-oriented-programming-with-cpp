@@ -207,7 +207,7 @@ std::cout << "Counter: " << counter << std::endl;
 std::cout << "Result: " << result << std::endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Counter: 0
 Result: 0
@@ -223,7 +223,7 @@ std::cout << "Counter: " << counter << std::endl;
 std::cout << "Result: " << result << std::endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Counter: 1
 Result: 0
@@ -309,7 +309,7 @@ int shifted = (x << 2);
 cout << "Shifting " << x << " two bits to the left: " << shifted << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Shifting 16 two bits to the left: 64
 </pre>
@@ -379,7 +379,7 @@ cout << "Size of a long: " << sizeof(long) << " bytes." << endl;
 cout << "Size of a long long: " << sizeof(long long) << " bytes." << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Size of a char: 1 bytes.
 Size of a short: 2 bytes.

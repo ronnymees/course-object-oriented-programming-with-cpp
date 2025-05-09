@@ -486,7 +486,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Point demo
 The point is now at [12.5, 23]
@@ -506,13 +506,9 @@ g++ main.cpp point.cpp -o points
 ./points
 ```
 
-<!--
 ## Exercises
 
 Try to solve the exercises yourself. Don't go copy pasting other people's solutions.
-
-Mark the exercises using a ✅ once they are finished.
--->
 
 ### 1. Move by delta
 

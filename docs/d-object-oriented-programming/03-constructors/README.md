@@ -102,7 +102,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 Point demo
 The point is at [8, 77]
 :::
@@ -212,8 +212,14 @@ Don't place parenthes `()` after the object name when creating an instance using
 <!-- Should we introduce constructor initialization list here or how to call other constructors? -->
 <!-- Copy constructor -->
 
-## Exercises
+## Exercise
 
-Try to solve the exercises yourself. Don't go copy pasting other people's solutions.
+Try to solve the exercise yourself. Don't go copy pasting other people's solution.
 
-### 1. [Die Throwing](./exercises/die_throwing/README.md)
+### 1. Die Throwing
+
+Create a `Die` class for a `6` sided die. Implement a `roll()` method that returns a random number between `1` and `6`.
+
+Create a small demo app that demonstrates the usage of the class `Die`. Roll the die a couple of times using a `for` construct.
+
+Now refactor the `Die` class so the `6` limit is not a magic number anymore. Make sure it can be passed via the `Die` constructor of the class. This way you should be able to create a 6-sided die or a 20-sided die.

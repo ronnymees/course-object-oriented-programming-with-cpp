@@ -48,7 +48,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Hello
 World
@@ -140,7 +140,7 @@ namespace CustomSorting {
 };
 ```
 
-::: output
+::: codeoutput
 <pre>
 Demo custom sorting of std::vector
 Unsorted:

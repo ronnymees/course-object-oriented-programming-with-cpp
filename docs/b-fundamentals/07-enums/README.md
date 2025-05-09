@@ -33,7 +33,7 @@ DayOfTheWeek today = WEDNESDAY;
 cout << "Today we are the " << today << "th day of the week." << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Today we are the 2th day of the week.
 </pre>
@@ -122,18 +122,9 @@ if (heading & (int)Style::UNDERLINED) std::cout << "Style is underlined" << std:
 if (heading & (int)Style::STRIKETHROUGH) std::cout << "Style is strikethrough" << std::endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Style is bold
 Style is underlined
 </pre>
 :::
-
-<!--
-## Exercises
-
-Try to solve the exercises yourself. Don't go copy pasting other people's solutions.
-
-Mark the exercises using a ✅ once they are finished.
--->
-<!-- ### ❌ TITLE_GOES_HERE -->

@@ -52,7 +52,7 @@ for (unsigned int i = 0; i < NUMBERS_SIZE; i++) {
 cout << "The average equals " << (sum/NUMBERS_SIZE) << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Please enter a number (5 left): 3
 Please enter a number (4 left): 542
@@ -138,7 +138,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Please enter size of array: 22
 The size of the array is 22
@@ -197,7 +197,7 @@ for (unsigned int r = 0; r < ROWS; r++) {
 
 Resulting in the following output:
 
-::: output
+::: codeoutput
 <pre>
 0 1 2 3 
 4 5 6 7
@@ -216,7 +216,7 @@ int numbers[] = {1, 2, 3};
 cout << "Sizeof numbers: " << sizeof(numbers) << " bytes." << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Sizeof matrix: 12 bytes.
 </pre>
@@ -231,7 +231,7 @@ cout << "Sizeof numbers: " << sizeof(numbers) << " bytes." << endl;
 cout << "It holds " << sizeof(numbers)/sizeof(numbers[0]) << " elements." << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Sizeof numbers: 12 bytes.
 It holds 3 elements.
@@ -253,7 +253,7 @@ cout << "Sizeof first dimension: " << sizeof(matrix[0]) << " bytes.";
 cout << " It holds " << sizeof(matrix[0])/sizeof(int) << " elements." << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Sizeof matrix: 32 bytes. It holds 8 elements.
 Sizeof first dimension: 16 bytes. It holds 4 elements.
@@ -275,7 +275,7 @@ for (auto value : numbers) {
 cout << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 1 2 3 4 5
 </pre>
@@ -309,7 +309,7 @@ for (auto &value : numbers) {
 cout << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 1 4 9 16 25
 </pre>

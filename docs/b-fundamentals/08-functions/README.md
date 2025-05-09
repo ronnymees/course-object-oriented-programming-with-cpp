@@ -249,7 +249,7 @@ int main() {
 
 As C++ passes arguments by value, a copy of `a` and `b` is created and placed inside the local parameter variables `x` and `y`. Because of this changes to `x` and `y` are local to the scope of the function itself. Luckily enough because otherwise every function would be able to alter the original variables which would lead to a lot of bugs and hard to solve problems.
 
-::: output
+::: codeoutput
 <pre>
 Before call to swap:
 a: 10
@@ -300,7 +300,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Sum of numbers: 25
 </pre>

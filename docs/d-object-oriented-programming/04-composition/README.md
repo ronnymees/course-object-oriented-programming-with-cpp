@@ -38,7 +38,7 @@ The aggregation link is usually used to stress the point that one class instance
 
 While a clear distinction is made here between aggregation and composition, it is not always done so in practice. In practice, one does often speak of composition even if he/she were to mean aggregation. As a result this course may also use the word composition where aggregation is meant. Of course in cases where a clear distinction is needed, the correct term will be used.
 
-::: definition Definition - Association, Composition and Aggregation
+::: insight Definition - Association, Composition and Aggregation
 To sum it up association is a very generic term used to represent when one class uses the functionalities provided by another class. It is sayed it's a composition if one parent class object owns another child class object and that child class object cannot meaningfully exist without the parent class object. If it can then it is called aggregation.
 :::
 
@@ -157,7 +157,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 Constructing Motor
 Constructing GearBox
@@ -282,7 +282,7 @@ int main() {
 
 Which would result in the output:
 
-::: output
+::: codeoutput
 <pre>
 Constructing PowerSupply: Input = 220 Output = 3.3
 Constructing PowerSupply: Input = 220 Output = 12
@@ -402,7 +402,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 LineSegment demo
 Line 0 has a length of 0

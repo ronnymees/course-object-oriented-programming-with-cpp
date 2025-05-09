@@ -227,7 +227,7 @@ cout << "The first letter of the alfabet is: ";
 cout << firstAlfabetLetter << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 The first letter of the alfabet is: a
 </pre>
@@ -253,7 +253,7 @@ cout << "Sending " << numberOfBytes;
 cout << " bytes via internet takes quite some time" << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Sending 4323553434 bytes via internet takes quite some time
 </pre>
@@ -276,7 +276,7 @@ cout << "Here is an approximation of pi: ";
 cout << approximationOfPi << endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Here is an approximation of pi: 3.1415
 </pre>
@@ -300,7 +300,7 @@ std::cout << "Value of c: " << c << std::endl;
 std::cout << "Value of d: " << d << std::endl;
 ```
 
-::: output
+::: codeoutput
 <pre>
 Value of a: 1
 Value of b: 0
@@ -391,7 +391,7 @@ int main() {
 
 The output is actually **undefined**.
 
-::: output
+::: codeoutput
 <pre>
 a = 32765
 b = 0
@@ -437,7 +437,7 @@ int main() {
 }
 ```
 
-::: output
+::: codeoutput
 <pre>
 There are a maximum of 24 students allowed in the classroom
 </pre>

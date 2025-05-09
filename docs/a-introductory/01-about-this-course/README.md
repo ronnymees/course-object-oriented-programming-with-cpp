@@ -4,6 +4,10 @@ Welcome to the course C++, an Object Oriented Programming (OOP) course. In this 
 
 Most of the material used in this course is initially created by Nico De Witte and continued by Ronny Mees. However some paragraphs, definitions, examples, images, ... may be copied from other online sources. In that case a reference can be found in the Sources chapter or as a footnote.
 
+## Reference
+
+[Bjarne Stroustrup's C++ Style and Technique FAQ](https://www.stroustrup.com/bs_faq2.html)
+
 ## Prerequisites
 
 This course does expect you to already have a basic knowledge of programming and object oriented concepts. If you don't, please take the course [Programming - From bace to ace](https://from-bace-to-ace.netlify.app/).
