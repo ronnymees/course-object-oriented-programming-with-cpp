@@ -1,5 +1,5 @@
 ---
-title: 05 - Loops
+title: 06 - Loops
 description: needs to be done
 ---
 

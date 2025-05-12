@@ -1,5 +1,5 @@
 ---
-title: 06 - Arrays
+title: 07 - Arrays
 description: needs to be done
 ---
 
@@ -318,57 +318,3 @@ cout << endl;
 
 More on references later. <!-- TODO: Checkout chapter xxx -->
 
-## Exercises
-
-Try to solve the exercises yourself. Don't go copy pasting other people's solutions.
-
-### 1. Day of the week
-
-Refactor the following code snippet using an array of `std::string` elements and lookup the result.
-
-```cpp
-#include <iostream>
-
-using namespace std;
-
-int main() {
-
-  unsigned int dayOfTheWeek = 0;
-  do {
-    cout << "Please enter the day of the week (1 - 7): ";
-    cin >> dayOfTheWeek;
-  } while (dayOfTheWeek < 1 || dayOfTheWeek > 7);
-  
-  switch(dayOfTheWeek) {
-    case 1:
-      std::cout << "Then it's Monday today" << std::endl;
-      break;
-    case 2:
-      std::cout << "Then it's Tuesday today" << std::endl;
-      break;
-    case 3:
-      std::cout << "Then it's Wednesday today" << std::endl;
-      break;
-    case 4:
-      std::cout << "Then it's Thursday today" << std::endl;
-      break;
-    case 5:
-      std::cout << "Then it's Friday today" << std::endl;
-      break;
-    case 6:
-      std::cout << "Then it's Saturday today" << std::endl;
-      break;
-    case 7:
-      std::cout << "Then it's Sunday today" << std::endl;
-      break;
-  }
-
-  return 0;
-}
-```
-
-### 2. Matrix and vector multiplication
-
-Check the vector and matrix multiplication below by writing a small application for it.
-
-![Matrix and vector multiplication](./img/matrix_vector_multiplication.png)
