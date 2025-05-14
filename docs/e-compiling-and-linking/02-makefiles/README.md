@@ -128,7 +128,7 @@ main.o: main.cpp
 	$(CC) $(CFLAGS) main.cpp
 
 clean:
-	rm -f *.o $(EXECUTABLE)
+	cmd /C del *.o $(EXECUTABLE)
 ```
 
 ## A more complex Hello world example
@@ -168,7 +168,7 @@ robot.o: lib/robot.cpp
 	$(CC) $(CFLAGS) lib/robot.cpp
 
 clean:
-	rm -f *.o $(EXECUTABLE)
+	cmd /C del *.o $(EXECUTABLE)
 ```
 
 ## A generic Makefile
@@ -215,8 +215,8 @@ ${BINARY}: ${OBJS}
 	${CC} ${CFLAGS} $< -o $@
 
 clean:
-	rm -rf ${BUILDDIR}
-	rm -f ${OBJS}
+	cmd /C del ${BUILDDIR}
+	cmd /C del ${OBJS}
 
 # Really basic install - needs improvement
 install:
@@ -229,9 +229,7 @@ makebuildir:
 ```
 ## Simplified generic Makefile
 
-A simplified generic version, works in many situations. It is still a draft version...
-* On Windows: enable lines 23 and 30 (default) and disable the other ones.
-* On Linux: enable lines 24 and 31 and disable the other ones.
+A simplified generic version, works in many situations. 
 
 ```
 # Compiler
@@ -256,13 +254,11 @@ all: $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJS)
 	$(CC) $(CFLAGS) -o $(EXECUTABLE) $(OBJS)
-	del -f $(OBJS) #Windows
-#	rm -f ${OBJS} #Linux
+	cmd /C del $(OBJS) 
 
 %.o: %.cpp
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	del -f $(OBJS) $(EXECUTABLE).exe *.ii *.s #Windows
-#	rm -f ${OBJS} ${EXECUTABLE} *.ii *.s #Linux
+	cmd /C del $(OBJS) $(EXECUTABLE).exe *.ii *.s 
 ```
