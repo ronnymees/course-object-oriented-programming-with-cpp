@@ -149,8 +149,8 @@ C++ supports several primitive datatypes as shown in the following tables.
 | :---: | --- | --- |
 | `char` | At least 8 bits. | `'a'`, `'4'`, `'\n'` |
 | `char16_t` | At least 16 bits. Not smaller dan `char`. | `'Ā'` (U+0100 or 256) |
-| `char32_t` | At least 32 bits. Not smaller dan `char16_t`. | TODO |
-| `wchar_t` | Can represent the largest supported character set. | TODO |
+| `char32_t` | At least 32 bits. Not smaller dan `char16_t`. | '😀' (U+1F600) |
+| `wchar_t` | Can represent the largest supported character set. | 'Ω' (U+03A9) |
 
 **Signed types**
 

@@ -273,7 +273,7 @@ The next table shows an overview of the boolean operators supported by C++.
 | Operator | Description |
 |---|---|
 | `&` | Boolean *AND* operator |
-| `|` | Boolean *OR* operator |
+| `\|`  | Boolean *OR* operator |
 | `~` | Boolean *NOT* operator |
 | `^` | Boolean *XOR* operator |
 
@@ -347,7 +347,7 @@ Programmers are very lazy creatures that are always looking for ways to make the
 | `<<=` | Left shift left operand by right operand and assign result to left operand |
 | `>>=` | Right shift left operand by right operand and assign result to left operand |
 | `&=` | Bitwise AND left operand with right operand and assign result to left operand |
-| `|=` | Bitwise OR left operand with right operand and assign result to left operand |
+| `\|=` | Bitwise OR left operand with right operand and assign result to left operand |
 | `^=` | Bitwise XOR left operand with right operand and assign result to left operand |
 
 Note that there are no compound operators available for the logical operators.
