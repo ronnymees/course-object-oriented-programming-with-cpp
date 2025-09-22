@@ -179,7 +179,7 @@ The table below gives an overview of the available logical operators in C++.
 | Operator | Description |
 |---|---|
 | `&&` | AND |
-| `||` | OR |
+| `\|\|` | OR |
 | `!` | NOT |
 
 These work as you know them from the Boolean algebra. The `||` (OR) operator will return `true` if either of the operands evaluate to `true`. The `&&` (AND) operator will return `true` if both operands evaluate to `true`. A logical expression can be negated by placing the `!` (NOT) operator in front of it.
